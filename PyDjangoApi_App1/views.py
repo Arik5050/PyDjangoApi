@@ -1,5 +1,5 @@
 from rest_framework.views import APIView
-from rest_framework.response import response
+from rest_framework.response import Response
 
 
 class HelloApiView(APIView):
@@ -13,4 +13,4 @@ class HelloApiView(APIView):
             'Is mapped manually to URLs',
         ]
 
-        return Response({'message': 'Hello!','an_apiview': an_apiview})
+        return Response({'message': 'Hello!!','an_apiview': an_apiview})
