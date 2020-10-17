@@ -17,6 +17,6 @@ from django.conf.urls import include
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
-    url(r'^api/', include('profiles_api.urls'))
+    url('admin/', admin.site.urls),
+    url('api/', include('PyDjangoApi_App1.urls'))
 ]
